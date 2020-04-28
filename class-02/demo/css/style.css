@@ -1,0 +1,33 @@
+body{
+  padding-left: 20px;
+}
+
+h1{
+  color: red;
+  font-size: 3em;
+}
+
+
+ol li{
+  color: purple;
+}
+
+li{
+  color: blue;
+}
+
+#family-dinners{
+  background-color: orange;
+}
+
+#family-dinners{
+  background-color: orchid;
+}
+
+.annoy{
+  border: 1px solid black;
+  background-color: palegreen;
+}
+/* top to bottom  */
+/* least specific to specific */
+/* a class is less specific than an id  */

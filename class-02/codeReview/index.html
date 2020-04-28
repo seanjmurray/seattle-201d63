@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class 1 Lab</title>
+    <style>
+      *{
+        margin: unset;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: tan; background-color: darkslategray; font-family: monospace;">Class 1 Lab</h1>
+    </header>
+    <main>
+      <!-- first question  -->
+      <p style="background-color: gold; color: darkslategray; padding: 10%;">What is your name?</p>
+      <p style="background-color: darkblue; color: gold; padding: 10%;">Where are you from?</p>
+      <p style="background-color: teal; color: darkblue; padding: 10%;">What is one thing that you really don't like?</p>
+      <p style="background-color: tan; color: teal; padding: 10%;">Finish the sentence: "I am having the most fun when I am..."</p>
+    </main>
+    <footer style="font-style: italic; font-weight: lighter; background-color: darkslategray; color: tan; padding-top: 5%; padding-bottom: 100%; text-align: right;">
+      Isn't this a fancy little web page?
+    </footer>
+  </body>
+  <script>
+    // first question
+    var userName = prompt("Greetings visitor! What is your name?");
+    console.log("Prompt for username. User answered: " + userName);
+
+    // second question
+    var hometown = prompt("Thanks for visiting us today, " + userName + "! We get visitors from all over the world. Where do you hail from?");
+    console.log("Prompt user for location. User answered: " + hometown);
+
+    // third question
+    var peeve = prompt(hometown + " is such a beautiful place! You're very lucky. But let's get to know each other better: What is one thing that you really don't like?").toLowerCase();
+    console.log("Ask user what they hate. User responded: " + peeve);
+
+    // forth question
+    var favorite = prompt("Agreed! I hate " + peeve + " too! Let's talk about what you like instead. Finish this sentence: \"I am having the most fun when I am...\"").toLowerCase();
+    console.log("Ask user what they love to do. User answered: " + favorite);
+
+    // final response
+    alert("Now let me introduce myself. I am just an uninteligent script, but it still seems that we have enough in common to be friends. You see, " + userName + ", I too despise dealing with " + peeve + " while I am getting my groove on " + favorite + " in my old favorite stomping grounds of " + hometown + "!");
+
+    console.log(userName + ' is from ' + hometown + ' and hate ' + peeve + ' and likes ' + favorite);
+  </script>
+</html>
