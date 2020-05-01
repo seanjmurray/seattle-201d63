@@ -13,7 +13,7 @@ if(watchedTigerKing.toLowerCase() === 'yes'){
   prompt('Please answer with a yes or a no');
 }
 
-// if(watchedTigerKing === 'yes'){
+// `if(watchedTigerKing === 'yes'){
 //   // do something
 // }
 
@@ -21,7 +21,7 @@ if(watchedTigerKing.toLowerCase() === 'yes'){
 //   // do something
 // } else {
 //   // do something else
-// }
+// }`
 
 // var likesCoffee = true;
 
