@@ -1,9 +1,9 @@
 /////////to make the daily form appear//////////////
 // Get the daily modal
-var dailyModal = document.getElementById('#dailyModal');
+var dailyModal = document.getElementById('dailyModal');
 
 // Get the button that opens the modal
-var dailyButton = document.getElementById('#addDaily');
+var dailyButton = document.getElementById('addDaily');
 
 // Get the <span> element that closes the modal
 var closeDaily = document.getElementsByClassName('close')[0];
@@ -46,6 +46,7 @@ var closeOne = document.getElementsByClassName('close')[2];
 
 // When the user clicks on the button, open the modal
 todoButton.onclick = function() {
+  'debugger';
   todoModal.style.display = 'block';
 };
 

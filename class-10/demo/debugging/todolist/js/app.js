@@ -3,8 +3,8 @@
 var lastLookedAtName = '';
 
 var addDaily = document.getElementById('dailyForm');
-var addToDo = document.getElementById('todoForm');
-var updateDailyObjectForm = document.getElementById('dailyDetails');
+var addToDo = document.getElementById('dailyFeildset');
+var updateDailyObjectForm = document.getElementById('dailyDetailsButton');
 var updateTodoObjectForm = document.getElementById('todoDetails');
 var dailyListHead = document.getElementById('dailyLegend');
 var todoListHead = document.getElementById('todoLegend');
@@ -425,8 +425,8 @@ function deleteToDoTask() {
   }
 }
 
-updateDailyObjectForm.addEventListener('submit', updatecurrentTask);
-updateDailyObjectForm.addEventListener('reset', deletecurrentTask);
+updateDailyObjectForm.addEventListener('submit', updateCurrentTask);
+updateDailyObjectForm.addEventListener('reset', deleteCurrentTask);
 updateTodoObjectForm.addEventListener('submit', updateToDoTask);
 updateTodoObjectForm.addEventListener('reset', deleteToDoTask);
 
